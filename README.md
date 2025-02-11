@@ -32,13 +32,15 @@ Este es un proyecto de API desarrollado con Node.js que proporciona funcionalida
 1.  Clona este repositorio:
     
 {
-    git clone [https://github.com/](https://github.com/)SooyAldahir/api_node.js
+    git clone https://github.com/SooyAldahir/api_node.js
 }
+
 2.  Instala las dependencias:
     
 {
     npm install
 }
+
 3.  Crea un archivo .env en la raíz del proyecto y añade la URI de conexión a tu base de datos MongoDB:
     
 MONGODB_URI=mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/<nombre_base_datos>?retryWrites=true&w=majority
