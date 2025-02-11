@@ -4,18 +4,18 @@ const transactionController = require('../controllers/transactionController');
 
 
 //Crear una transaccion
-router.post('/createTran', transactionController.createTransaction);
+router.post('/createTransaction', transactionController.createTransaction);
 
 //Obtener todas las transacciones
-router.get('/getAllTran', transactionController.getAllTransactions);
+router.get('/getAllTransactions', transactionController.getAllTransactions);
 
 //Obtener una transaccion por su id
-router.get('/getTran/:id', transactionController.getTransactionById);
+router.get('/getTransaction/:id', transactionController.getTransactionById);
 
 //Editar una transaccion
-router.post('/editTran/:id', transactionController.updateTransaction);
+router.post('/editTransaction/:id', transactionController.updateTransaction);
 
 //Eliminar una transaccion
-router.delete('/deleteTran/:id', transactionController.deleteTransaction);
+router.delete('/deleteTransaction/:id', transactionController.deleteTransaction);
 
 module.exports = router;

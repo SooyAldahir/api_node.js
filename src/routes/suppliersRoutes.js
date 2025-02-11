@@ -3,18 +3,18 @@ const router = express.Router();
 const suppliersController = require('../controllers/suppliersController');
 
 //Crear un produccto
-router.post('/createSupp', suppliersController.createSupplier);
+router.post('/createSuppliers', suppliersController.createSupplier);
 
 //Obtener todos los productos
-router.get('/getAllSupp', suppliersController.getAllSupplier);
+router.get('/getAllSuppliers', suppliersController.getAllSupplier);
 
 //Obtener un producto por su id
-router.get('/getSupp/:id', suppliersController.getSupplierById);
+router.get('/getSuppliers/:id', suppliersController.getSupplierById);
 
 //Editar un producto
-router.post('/editSupp/:id', suppliersController.updateSupplier);
+router.post('/editSuppliers/:id', suppliersController.updateSupplier);
 
 //Eliminar un producto
-router.delete('/deleteSupp/:id', suppliersController.deleteSupplier);
+router.delete('/deleteSuppliers/:id', suppliersController.deleteSupplier);
 
 module.exports = router;
