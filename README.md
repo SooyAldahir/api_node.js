@@ -67,7 +67,7 @@ MONGODB_URI=mongodb://127.0.0.1:27017/{tuBaseDeDatos}
 - **Crear categoría** (`POST /createCategory`)
     ```json
     {
-        "_id:"
+        "_id": "67a1928eee160c0ad8fc983f"
         "name": "Electrónica",
         "description": "Productos tecnológicos y gadgets"
     }
