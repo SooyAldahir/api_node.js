@@ -184,6 +184,11 @@ GET http://localhost:3000/getAllCategories
     }
 ]
 ```
+## **Ejemplo de Uso**
+Aquí tienes un ejemplo visual del sistema funcionando:
+
+![Obtener una categoria](./getCategory.png)
+![Obtener todas las categorias](./getAllCategories.png)
 
 
 
