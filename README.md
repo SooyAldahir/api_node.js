@@ -39,7 +39,7 @@ Este es un proyecto de API desarrollado con Node.js que proporciona funcionalida
 
 3.  Crea un archivo .env en la raíz del proyecto y añade la URI de conexión a tu base de datos MongoDB:
     
-MONGODB_URI=mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/<nombre_base_datos>?retryWrites=true&w=majority
+MONGODB_URI=mongodb://127.0.0.1:27017/{tuBaseDeDatos}
 
 ## **Estructura del Proyecto**
 ```
@@ -57,7 +57,7 @@ MONGODB_URI=mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/<nombre_
 
 1.  Inicia el servidor:
     
-    node server.js
+    npm run dev
 
 2.  La API estará disponible en http://localhost:3000 (o el puerto que hayas configurado).
 
@@ -165,7 +165,7 @@ POST http://localhost:3000/api/createCategory
 ```    
 ### **Obtener todas las Categorías**
 ```sh
-GET http://localhost:3000/getAllCategories
+GET http://localhost:3000/api/getAllCategories
 
 [
     {
