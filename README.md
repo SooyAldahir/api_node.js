@@ -13,8 +13,7 @@ Este es un proyecto de API desarrollado con Node.js que proporciona funcionalida
   - [Proveedores](#proveedores)
   - [Transacciones](#transacciones)
   - [Usuarios](#usuarios)
-- [Autenticación](#autenticación)
-- [Ejemplos con cURL](#ejemplos-con-curl)
+- [Ejemplos con Postman](#ejemplos-con-postman)
 - [Contribuir](#contribuir)
 
 ---
@@ -185,10 +184,13 @@ GET http://localhost:3000/getAllCategories
 ]
 ```
 ## **Ejemplo de Uso**
-Aquí tienes un ejemplo visual del sistema funcionando:
+Aquí tienes un ejemplo del sistema funcionando actualizando una categoria:
 
-![Obtener una categoria](./getCategory.png)
-![Obtener todas las categorias](./getAllCategories.png)
+![Obtener todas las categorias](./getCategory.png)
+
+Aquí tienes un ejemplo del sistema funcionando mostrando todas las categorias:
+
+![Obtener una categoria](./getAllCategories.png)
 
 
 
