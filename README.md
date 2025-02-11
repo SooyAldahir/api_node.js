@@ -186,11 +186,11 @@ GET http://localhost:3000/getAllCategories
 ## **Ejemplo de Uso**
 Aquí tienes un ejemplo del sistema funcionando actualizando una categoria:
 
-![Obtener todas las categorias](./getCategory.png)
+![Obtener una categoria](./getAllCategories.png)
 
 Aquí tienes un ejemplo del sistema funcionando mostrando todas las categorias:
 
-![Obtener una categoria](./getAllCategories.png)
+![Obtener todas las categorias](./getCategory.png)
 
 
 
