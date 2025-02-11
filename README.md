@@ -1,6 +1,6 @@
 # API con Node.js
 
-Este es un proyecto de API desarrollado con Node.js que proporciona funcionalidades para gestionar categorías, productos, proveedores, transacciones y usuarios.
+Este es un proyecto de API desarrollado con Node.js que proporciona funcionalidades para gestionar categorías, productos, proveedores, transacciones y usuarios para un sistema de invetario.
 
 ## **Tabla de Contenidos**
 - [Tecnologías utilizadas](tecnologías-utilizadas)
